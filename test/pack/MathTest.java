@@ -58,8 +58,8 @@ public class MathTest extends TestCase {
     }
 
     public void testAddNeg_ShouldFail() {
-        //int total = -18;    //fail
-        int total = -8; //pass
+        int total = -20;    //fail
+        //int total = -8; //pass
         try {
             Thread.sleep(5000);
         } catch (InterruptedException e) {
