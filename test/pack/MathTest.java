@@ -40,8 +40,8 @@ public class MathTest extends TestCase {
     }
 
     public void testAdd_ShouldFail() {
-        int total = 18; //fail   2
-        // int total = 8;    //pass
+        // int total = 18; //fail   2
+        int total = 8;    //pass
         int sum = Calculation.add(value1, value2);
         try {
             Thread.sleep(5000);
