@@ -80,6 +80,7 @@ public class MathTest extends TestCase {
         assertEquals(sum, total);
     }
 
+    //change smth more
 	public void testFailedAdd() {
 		int total = 9;
 		int sum = Calculation.add(value1, value2);
