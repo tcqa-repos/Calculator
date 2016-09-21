@@ -57,7 +57,7 @@ public class MathTest extends TestCase {
         assertEquals(sum, total);
     }
 
-    public void testAddNeg_OneMore() {
+    public void testAddNeg_OneMoreQ() {
         int total = -8;
         int sum = Calculation.add(-value1, -value2);
         assertEquals(sum, total);
