@@ -57,6 +57,12 @@ public class MathTest extends TestCase {
         assertEquals(sum, total);
     }
 
+    public void testAddNeg_OneMore() {
+        int total = -8;
+        int sum = Calculation.add(-value1, -value2);
+        assertEquals(sum, total);
+    }
+
     public void testAddNeg_ShouldFail() {
         int total = -20;    //fail
         //int total = -8; //pass
