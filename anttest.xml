@@ -1,0 +1,20 @@
+<project name="Example" xmlns:jacoco="antlib:org.jacoco.ant">
+  <taskdef uri="antlib:org.jacoco.ant" resource="org/jacoco/ant/antlib.xml">
+    <classpath>
+      <fileset dir="jacoco">
+        <include name="*.jar"/>
+      </fileset>
+    </classpath>
+  </taskdef>
+
+  <target name="test">    
+   <jacoco:coverage>
+     <junit fork="true" forkmode="once" printsummary="true">
+        <test name="MathTest.java"/>
+        <classpath>
+          <pathelement location="./src/test"/>
+        </classpath>
+      </junit>
+    </jacoco:coverage> 
+  </target>
+</project>
