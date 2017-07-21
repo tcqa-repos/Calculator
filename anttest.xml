@@ -10,7 +10,7 @@
   <target name="test">    
    <jacoco:coverage>
      <junit fork="true" forkmode="once" printsummary="true">
-        <test name="pack.MathTest"/>
+        <test name="**/*Test*"/>
         <classpath>
           <pathelement location="out"/>
         </classpath>
