@@ -10,7 +10,9 @@
   <target name="test">    
    <jacoco:coverage>
      <junit fork="true" forkmode="once" printsummary="true">
-       <batchtest fork="yes"">
+	     <classpath location="out" />
+	     <classpath location="lib" />
+       <batchtest fork="yes">
 			<fileset dir="test">
 				<include name="**/*Test*.java" />
 			</fileset>
