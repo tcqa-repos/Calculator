@@ -10,7 +10,7 @@
   <target name="test">    
    <jacoco:coverage>
      <junit fork="true" forkmode="once" printsummary="true">
-	     <classpath location="out" />
+	     <classpath location="out/test/Calculator" />
 	     <classpath location="lib" />
        <batchtest fork="yes">
 			<fileset dir="test">
