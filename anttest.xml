@@ -1,7 +1,7 @@
 <project name="Example" xmlns:jacoco="antlib:org.jacoco.ant">
   <taskdef uri="antlib:org.jacoco.ant" resource="org/jacoco/ant/antlib.xml">
     <classpath>
-      <fileset dir="jacoco">
+      <fileset dir="jacoco/lib">
         <include name="*.jar"/>
       </fileset>
     </classpath>
