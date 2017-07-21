@@ -12,7 +12,7 @@
      <junit fork="true" forkmode="once" printsummary="true">
         <test name="MathTest.java"/>
         <classpath>
-          <pathelement location="./src/test"/>
+          <pathelement location="test/pack"/>
         </classpath>
       </junit>
     </jacoco:coverage> 
