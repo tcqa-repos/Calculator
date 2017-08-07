@@ -51,11 +51,11 @@ public class MathTest extends TestCase {
         assertEquals(sum, total);
     }
 	
-    public void failedTest() {
+    public void failedTest5() {
 	    assertEquals(1,2);
     }
 
-    public void faileTest3() {
+    public void faileTest4() {
 	    assertEquals(2,3);
     }
 
