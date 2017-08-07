@@ -52,11 +52,11 @@ public class MathTest extends TestCase {
     }
 	
     public void failedTest() {
-	    assertEquals(1,2)
+	    assertEquals(1,2);
     }
 
     public void faileTest2() {
-	    assertEquals(2,3)
+	    assertEquals(2,3);
     }
 
     public void testAddNeg() {
