@@ -50,6 +50,14 @@ public class MathTest extends TestCase {
         }
         assertEquals(sum, total);
     }
+	
+    public void failedTest() {
+	    assertEquals(1,2)
+    }
+
+    public void faileTest2() {
+	    assertEquals(2,3)
+    }
 
     public void testAddNeg() {
         int total = -8;
