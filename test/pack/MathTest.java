@@ -55,7 +55,7 @@ public class MathTest extends TestCase {
 	    assertEquals(1,2);
     }
 
-    public void faileTest2() {
+    public void faileTest3() {
 	    assertEquals(2,3);
     }
 
