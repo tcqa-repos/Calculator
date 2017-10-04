@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <build-type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="a1328678-ef30-40e8-af06-a9d0a5b8991f" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/2017.2/project-config.xsd">
-  <name>Build (1)</name>
+  <name>Build</name>
   <description />
   <settings>
     <parameters />
