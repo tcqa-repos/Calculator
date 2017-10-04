@@ -3,3 +3,7 @@
 .idea/runConfigurations/Main.xml
 .idea/misc.xml
 .idea/runConfigurations/Tests_with_spaces.xml
+out/test/Calculator/pack/MathTestNG.class
+out/test/Calculator/pack/MathTest2.class
+out/test/Calculator/pack/MathTest.class
+out/production/Calculator/pack/Calculation.class
