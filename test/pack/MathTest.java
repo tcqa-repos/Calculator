@@ -52,7 +52,7 @@ public class MathTest extends TestCase {
     }
 
     public void testAddNeg() {
-        int total = -8;
+        int total = -88;
         int sum = Calculation.add(-value1, -value2);
         assertEquals(sum, total);
     }
