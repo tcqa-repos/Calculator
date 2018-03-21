@@ -21,7 +21,7 @@
     <artifact-dependencies>
       <dependency id="ARTIFACT_DEPENDENCY_1" sourceBuildTypeId="Project_Project1_Build" cleanDestination="false">
         <revisionRule name="lastSuccessful" revision="latest.lastSuccessful" />
-        <artifact sourcePath=".teamcity/settings/digest.txt&#xD;&#xA;.teamcity/properties/build.start.properties.gz&#xD;&#xA;.teamcity/properties/build.finish.properties.gz&#xD;&#xA;.teamcity/logs/buildLog.msg5.i1&#xD;&#xA;.teamcity/logs/buildLog.msg5" />
+        <artifact sourcePath=".teamcity/settings/digest.txt&#xD;&#xA;.teamcity/properties/build.start.properties.gz&#xD;&#xA;.teamcity/properties/build.finish.properties.gz&#xD;&#xA;.teamcity/logs/buildLog.msg5.i1&#xD;&#xA;.teamcity/logs/buildLog.msg5&#xD;&#xA;.teamcity/settings/buildSettings.xml" />
       </dependency>
     </artifact-dependencies>
     <cleanup />
