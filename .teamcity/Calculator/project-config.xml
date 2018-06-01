@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="8e63e936-97da-410e-9c58-feecd9d739d0" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/2017.2/project-config.xsd">
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="8e63e936-97da-410e-9c58-feecd9d739d0" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/2018.1/project-config.xsd">
   <name>Calculator</name>
   <parameters />
   <project-extensions>
@@ -10,18 +10,6 @@
         <param name="enabled" value="true" />
         <param name="rootId" value="Calculator_HttpsGithubComTcqaReposCalculatorRefsHeadsMaster" />
         <param name="showChanges" value="false" />
-      </parameters>
-    </extension>
-    <extension id="PROJECT_EXT_43" type="IssueTracker">
-      <parameters>
-        <param name="authType" value="anonymous" />
-        <param name="name" value="test" />
-        <param name="pattern" value="#(\d+)" />
-        <param name="repository" value="http://github.com" />
-        <param name="secure:accessToken" value="" />
-        <param name="secure:password" value="" />
-        <param name="type" value="GithubIssues" />
-        <param name="username" value="" />
       </parameters>
     </extension>
   </project-extensions>
