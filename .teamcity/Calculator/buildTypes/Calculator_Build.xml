@@ -3,6 +3,9 @@
   <name>Build</name>
   <description />
   <settings>
+    <options>
+      <option name="artifactRules" value="**/* =&gt; art.zip" />
+    </options>
     <disabled-settings>
       <setting-ref ref="RUNNER_791" />
     </disabled-settings>
