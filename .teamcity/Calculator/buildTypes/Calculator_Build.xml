@@ -57,7 +57,7 @@
       </runner>
     </build-runners>
     <vcs-settings>
-      <vcs-entry-ref root-id="Calculator_HttpsGithubComTcqaReposCalculatorRefsHeadsMaster" />
+      <vcs-entry-ref root-id="Calculator_HttpsGithubComTcqaReposCalculator" />
     </vcs-settings>
     <requirements />
     <build-triggers>
