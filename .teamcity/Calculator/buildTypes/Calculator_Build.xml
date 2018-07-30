@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<build-type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="14dc34c9-6f8e-4df1-b0d6-9c05c5d745eb" paused="true" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/2018.1/project-config.xsd">
+<build-type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="14dc34c9-6f8e-4df1-b0d6-9c05c5d745eb" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/2017.2/project-config.xsd">
   <name>Build</name>
   <description />
   <settings>
     <options>
       <option name="artifactRules" value="**/* =&gt; art.zip" />
-      <option name="checkoutMode" value="ON_AGENT" />
+      <option name="checkoutMode" value="ON_SERVER" />
     </options>
     <disabled-settings>
       <setting-ref ref="RUNNER_791" />
