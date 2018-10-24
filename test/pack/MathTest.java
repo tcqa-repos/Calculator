@@ -28,13 +28,19 @@ public class MathTest extends TestCase {
     }
 
 
-	public void testAdd() {
+    public void testAdd() {
         int total = 8;
         try {
             Thread.sleep(5000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+        int sum = Calculation.add(value1, value2);
+        assertEquals(sum, total);
+    }
+	
+    public void testAdd_Pass() {
+        int total = 8;
         int sum = Calculation.add(value1, value2);
         assertEquals(sum, total);
     }
