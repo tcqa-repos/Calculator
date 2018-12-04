@@ -9,7 +9,6 @@
     </options>
     <disabled-settings>
       <setting-ref ref="RUNNER_791" />
-      <setting-ref ref="vcsTrigger" />
     </disabled-settings>
     <parameters />
     <build-runners>
