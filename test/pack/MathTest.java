@@ -46,8 +46,8 @@ public class MathTest extends TestCase {
     }
 
     public void testAdd_ShouldFail() {
-        //int total = 18; //fail   2
-        int total = 8;    //pass
+        int total = 18; //fail   2
+        // int total = 8;    //pass
         int sum = Calculation.add(value1, value2);
         try {
             Thread.sleep(5000);
@@ -55,6 +55,14 @@ public class MathTest extends TestCase {
             e.printStackTrace();
         }
         assertEquals(sum, total);
+    }
+	
+    public void testfailedTest5() {
+	    assertEquals(1,2);
+    }
+
+    public void testfaileTest6() {
+	    assertEquals(2,3);
     }
 
     public void testAddNeg() {
@@ -77,8 +85,8 @@ public class MathTest extends TestCase {
     //asdd
 
     public void testAddNeg_ShouldFail() {
-        //int total = -18;    //fail
-        int total = -8; //pass
+        int total = -20;    //fail
+        //int total = -8; //pass
         try {
             Thread.sleep(5000);
         } catch (InterruptedException e) {
@@ -99,6 +107,7 @@ public class MathTest extends TestCase {
         assertEquals(sum, total);
     }
 
+    //change smth more and more and some more
 	public void testFailedAdd() {
 		int total = 9;
 		int sum = Calculation.add(value1, value2);

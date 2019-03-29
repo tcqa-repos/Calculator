@@ -25,16 +25,9 @@
     <SELECTED_TYPE id="bt945" />
     <treeState key="selectConfigurations.run">
       <expandedPath>
-        <pathElement>
-          <option name="myNodeId" value="project115" />
           <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.ProjectDescriptor" />
         </pathElement>
       </expandedPath>
-      <expandedPath>
-        <pathElement>
-          <option name="myNodeId" value="project115" />
-          <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.ProjectDescriptor" />
-        </pathElement>
         <pathElement>
           <option name="myNodeId" value="project300" />
           <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.ProjectDescriptor" />
