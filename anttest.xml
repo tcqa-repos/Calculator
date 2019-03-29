@@ -1,0 +1,47 @@
+<project name="Example" xmlns:jacoco="antlib:org.jacoco.ant">
+    <taskdef uri="antlib:org.jacoco.ant" resource="org/jacoco/ant/antlib.xml">
+        <classpath>
+            <fileset dir="jacoco/lib">
+                <include name="*.jar"/>
+            </fileset>
+        </classpath>
+    </taskdef>
+
+    <target name="test">
+        <jacoco:coverage>
+            <junit fork="true" forkmode="once" printsummary="true">
+                <classpath location="out/test/Calculator" />
+                <classpath>
+                    <fileset dir="lib">
+                        <include name="*.jar"/>
+                    </fileset>
+                </classpath>
+                <batchtest fork="yes">
+                    <fileset dir="test">
+                        <include name="**/*Test*.java" />
+                    </fileset>
+                </batchtest>
+            </junit>
+        </jacoco:coverage>
+    </target>
+
+    <taskdef name="testng" classname="org.testng.TestNGAntTask">
+        <classpath location="lib/testng-6.7.jar" />
+    </taskdef>
+
+    <target name="testng">
+        <jacoco:coverage>
+            <testng>
+                <classpath location="out/test/Calculator" />
+                <classpath location="test" />
+                <classpath>
+                    <fileset dir="lib">
+                        <include name="*.jar"/>
+                    </fileset>
+                </classpath>
+                <classfileset dir="out/test/Calculator" includes="**/*TestNG.class" />
+            </testng>
+        </jacoco:coverage>
+    </target>
+
+</project>
