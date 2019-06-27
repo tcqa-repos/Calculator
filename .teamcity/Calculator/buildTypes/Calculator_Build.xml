@@ -10,7 +10,9 @@
     <disabled-settings>
       <setting-ref ref="RUNNER_791" />
     </disabled-settings>
-    <parameters />
+    <parameters>
+      <param name="a" value="a" />
+    </parameters>
     <build-runners>
       <runner id="RUNNER_200" name="" type="JPS">
         <parameters>
