@@ -12,7 +12,6 @@
     </disabled-settings>
     <parameters>
       <param name="a" value="a" />
-      <param name="env.JDK_17" value="%env.JDK_17%" />
     </parameters>
     <build-runners>
       <runner id="RUNNER_200" name="" type="JPS">
