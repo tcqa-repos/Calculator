@@ -77,7 +77,7 @@
         <parameters>
           <param name="branchFilter" value="+:*" />
           <param name="buildFinishedSuccess" value="true" />
-          <param name="email" value="julia.reshetnikova@jetbrains.com" />
+          <param name="email" value="tcqa.user1@gmail.com" />
           <param name="firstSuccessAfterFailure" value="true" />
           <param name="notifier" value="email" />
         </parameters>
