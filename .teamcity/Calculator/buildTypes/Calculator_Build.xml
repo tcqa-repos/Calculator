@@ -8,6 +8,7 @@
       <option name="checkoutMode" value="ON_SERVER" />
     </options>
     <disabled-settings>
+      <setting-ref ref="RUNNER_200" />
       <setting-ref ref="RUNNER_791" />
     </disabled-settings>
     <parameters>
