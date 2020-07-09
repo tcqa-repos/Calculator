@@ -72,6 +72,17 @@
         </parameters>
       </build-trigger>
     </build-triggers>
+    <build-extensions>
+      <extension id="BUILD_EXT_84" type="notifications">
+        <parameters>
+          <param name="branchFilter" value="+:*" />
+          <param name="buildFinishedSuccess" value="true" />
+          <param name="email" value="julia.reshetnikova@jetbrains.com" />
+          <param name="firstSuccessAfterFailure" value="true" />
+          <param name="notifier" value="email" />
+        </parameters>
+      </extension>
+    </build-extensions>
     <cleanup />
   </settings>
 </build-type>
