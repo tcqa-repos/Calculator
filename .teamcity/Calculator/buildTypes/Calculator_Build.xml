@@ -84,6 +84,12 @@
           <param name="notifier" value="email" />
         </parameters>
       </extension>
+      <extension id="swabra" type="swabra">
+        <parameters>
+          <param name="swabra.enabled" value="swabra.before.build" />
+          <param name="swabra.processes" value="report" />
+        </parameters>
+      </extension>
     </build-extensions>
     <cleanup />
   </settings>
