@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<build-type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="14dc34c9-6f8e-4df1-b0d6-9c05c5d745eb" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2020.1/project-config.xsd">
+<build-type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="14dc34c9-6f8e-4df1-b0d6-9c05c5d745eb" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2021.1/project-config.xsd">
   <name>Build</name>
   <description />
   <settings>
@@ -8,6 +8,8 @@
       <option name="checkoutMode" value="ON_SERVER" />
     </options>
     <disabled-settings>
+      <setting-ref ref="RUNNER_200" />
+      <setting-ref ref="RUNNER_295" />
       <setting-ref ref="RUNNER_791" />
     </disabled-settings>
     <parameters>
@@ -72,6 +74,23 @@
         </parameters>
       </build-trigger>
     </build-triggers>
+    <build-extensions>
+      <extension id="BUILD_EXT_84" type="notifications">
+        <parameters>
+          <param name="branchFilter" value="+:*" />
+          <param name="buildFinishedSuccess" value="true" />
+          <param name="email" value="tcqa.user1@gmail.com" />
+          <param name="firstSuccessAfterFailure" value="true" />
+          <param name="notifier" value="email" />
+        </parameters>
+      </extension>
+      <extension id="swabra" type="swabra">
+        <parameters>
+          <param name="swabra.enabled" value="swabra.before.build" />
+          <param name="swabra.processes" value="report" />
+        </parameters>
+      </extension>
+    </build-extensions>
     <cleanup />
   </settings>
 </build-type>

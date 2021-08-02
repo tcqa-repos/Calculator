@@ -1,22 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="8e63e936-97da-410e-9c58-feecd9d739d0" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2020.1/project-config.xsd">
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="8e63e936-97da-410e-9c58-feecd9d739d0" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2021.1/project-config.xsd">
   <name>Calculator</name>
   <parameters />
   <project-extensions>
-    <extension id="Local-9" type="CloudProfile">
-      <parameters>
-        <param name="cloud-code" value="Local" />
-        <param name="description" value="" />
-        <param name="enabled" value="true" />
-        <param name="images" value="local-image@/Users/evgeny.doroshenko/Downloads/buildAgent" />
-        <param name="name" value="calc" />
-        <param name="next-hour" value="" />
-        <param name="profileId" value="Local-9" />
-        <param name="profileServerUrl" value="" />
-        <param name="terminate-idle-time" value="30" />
-        <param name="total-work-time" value="" />
-      </parameters>
-    </extension>
     <extension id="PROJECT_EXT_35" type="versionedSettings">
       <parameters>
         <param name="buildSettings" value="ALWAYS_USE_CURRENT" />
