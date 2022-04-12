@@ -3,6 +3,20 @@
   <name>Calculator</name>
   <parameters />
   <project-extensions>
+    <extension id="Local-9" type="CloudProfile">
+      <parameters>
+        <param name="cloud-code" value="Local" />
+        <param name="description" value="" />
+        <param name="enabled" value="true" />
+        <param name="images" value="local-image@/Users/evgeny.doroshenko/Downloads/buildAgent" />
+        <param name="name" value="calc" />
+        <param name="next-hour" value="" />
+        <param name="profileId" value="Local-9" />
+        <param name="profileServerUrl" value="" />
+        <param name="terminate-idle-time" value="30" />
+        <param name="total-work-time" value="" />
+      </parameters>
+    </extension>
     <extension id="PROJECT_EXT_35" type="versionedSettings">
       <parameters>
         <param name="buildSettings" value="ALWAYS_USE_CURRENT" />
